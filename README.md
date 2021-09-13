@@ -1,8 +1,12 @@
 # url-shorteshner
 
-cd $GOPATH/go/src/grpc-url-shortener
-docker-compose build --no-cache
+    
+     cd $GOPATH/go/src/url-shortener
+     
+     DOCKER STUFF:
+        docker-compose build --no-cache
+        docker-compose up
 
-For testing purposes was created a totest directory, after running the container this small go application can be started and the result could be obtained;
 
-Main application is exposed in port: 8083
+    1. For testing purposes were created tests for controller which can be run after docker running docker-compose up;
+    2. Main application is exposed on port: 8083
